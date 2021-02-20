@@ -99,6 +99,16 @@ p {
     margin: 0 auto;
 }
 
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page .about-section {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -107,10 +117,37 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.four-square {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.four-square .dividers {
+    width: 47.5%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.four-square .dividers p {
+    margin-bottom: 35px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.dividers a {
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 2.5px solid black;
+    border-radius: 10px;
 }
 
 .middle-content {
